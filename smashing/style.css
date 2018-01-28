@@ -1,0 +1,77 @@
+* {
+		padding:0;
+		margin:6px;
+		box-sizing: border-box;
+		transition: all .1s ease-in;
+	}
+html,body {
+		height: 100%;
+		background: #f5f4ef;
+		font-family: Verdana, Arial, sans-serif;
+		text-align: auto;
+		position: relative;
+		width: 1250px;
+		margin: 0 auto;
+
+	}
+/* .link {
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+	} */
+
+@media (max-width: 850px){
+	}
+@font-face {
+	font-family: "ChemyRetro Bold";
+	src: url('chemyretro-webfont.woff') format('woff');
+	src: url('chemyretro-webfont.woff2') format('woff2');
+    }
+@font-face{
+	font-family: "Nocturne Victorian";
+	src: url('11426-webfont.woff') format('woff');
+	src: url('11426-webfont.woff2') format('woff2');
+    }
+p   { line-height: 18px;
+	  padding: 0 0 10px 0;
+	}
+
+h1  {font: 55px "ChemyRetro Bold";
+	color: black;
+	padding: 0 20px 2px 0;
+	font-family:
+    }
+
+h2 { font: 34px "Nocturne Victorian";
+     color: red;
+     padding: 0 20px 2px 0;
+    }
+
+h3 { font: 20px "ChemyRetro Bold";
+     color: red;
+     font-size: 18px;
+     padding: 0 20px 2px 0;
+    }
+
+.hdr {
+	 font: 30px "";
+     color: red;
+     padding: 0 0 5px 0;
+
+}
+.block {
+	border-radius: 30px;
+	background:#FFFFFF;
+	width:50%;
+	border: 1px solid white;
+	width: 1200px;
+	text-align: left;
+}
+.blockFooter {
+	border-radius: 25px;
+	background:#FFFFFF;
+	width:50%;
+	border: 2px solid white;
+	width: 1200px;
+	text-align: left;
+	height: 50px;
+}
