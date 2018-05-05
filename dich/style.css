@@ -1,0 +1,15 @@
+body {
+  display: block;
+  height: 100%;
+  width: 100%;
+  }
+
+.video {
+  display: flex;
+  align-items: center;
+
+}
+video::-webkit-media-controls {
+  display:none !important;
+}
+.play-btn
